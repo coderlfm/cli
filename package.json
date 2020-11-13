@@ -1,21 +1,26 @@
 {
-  "name": "learn-cli",
+  "name": "coderlfm",
   "version": "1.0.0",
-  "description": "",
+  "description": "基于 create-react-app 二次封装后快速搭建项目的脚手架工具",
   "main": "index.js",
   "bin": {
-    "link": "index.js"
+    "coderlfmtest": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "homepage": "http://blog.liufengmao.cn/",
+  "repository ": "https://github.com/coderlfm/cli",
+  "keywords": [
+    "react",
+    "react-cli"
+  ],
+  "author": "coderlfm",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.0",
     "commander": "^6.2.0",
     "download-git-repo": "^3.0.2",
-    "ejs": "^3.1.5",
-    "open": "^7.3.0"
+    "ejs": "^3.1.5"
   }
 }

@@ -1,19 +1,25 @@
 {
   "name": "coderlfm",
-  "version": "1.0.0",
-  "description": "基于 create-react-app 二次封装后快速搭建项目的脚手架工具",
+  "version": "1.0.1",
+  "description": "基于 create-react-app 二次封装后快速搭建项目的脚手架工具, 即将支持Vue",
   "main": "index.js",
   "bin": {
-    "coderlfm1": "index.js"
+    "coderlfm": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "homepage": "http://blog.liufengmao.cn/",
-  "repository ": "https://github.com/coderlfm/cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coderlfm/cli"
+  },
   "keywords": [
     "react",
-    "react-cli"
+    "react-cli",
+    "front-end",
+    "vue",
+    "vue-cli"
   ],
   "author": "coderlfm",
   "license": "ISC",

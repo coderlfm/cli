@@ -7,7 +7,7 @@
 * [x] 动态配置路由表(兼容 Antd Tree)
 * [x] 动态引入组件路由
 * [x] 动态引入组件 `store`
-* [x] 状态管理使用 `redux` 集成 `redux-thunk`
+* [x] 状态管理开发者可选择 `redux` 或 `@reduxjs/toolkit`
 * [x] 二次封装 `axios`
 * [x] 配置路径 `@` 别名，cs vode `@` 路径提示
 
@@ -119,6 +119,7 @@ const createRoutes = (routes) => {
 ---
 <br/>
 
+
 - 手动修改路由配置表后续更新
-- 后续版本计划新增基于 `@redux/toolkit` 来做状态管理，更简化redux的代码
+- 后续即将支持Vue
 

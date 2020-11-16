@@ -4,7 +4,7 @@
   "description": "基于 create-react-app 二次封装后快速搭建项目的脚手架工具, 即将支持Vue",
   "main": "index.js",
   "bin": {
-    "coderlfm": "index.js"
+    "coderlfm1": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,6 +28,8 @@
     "commander": "^6.2.0",
     "download-git-repo": "^3.0.2",
     "ejs": "^3.1.5",
-    "inquirer": "^7.3.3"
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "ora": "^5.1.0"
   }
 }

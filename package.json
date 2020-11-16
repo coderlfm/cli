@@ -1,10 +1,10 @@
 {
   "name": "coderlfm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "基于 create-react-app 二次封装后快速搭建项目的脚手架工具, 即将支持Vue",
   "main": "index.js",
   "bin": {
-    "coderlfm1": "index.js"
+    "coderlfm": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

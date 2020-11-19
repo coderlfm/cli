@@ -1,6 +1,12 @@
 # react 项目脚手架
 该脚手架可快速生成一个可用于生产环境的基本项目，满足基本上的react项目开发（即将支持Vue），如开发者要做完全贴合自己的项目的模板，则需要更定制化的脚手架工具，目前脚手架已帮你做好以下配置
 
+
+___
+`开源不易，需要鼓励。给 coderlfm 项目点个 star吧` [GitHub](https://github.com/coderlfm/cli)
+
+如果你在使用过程中遇到问题或者一些建议，可以在此处提交 [issues](https://github.com/coderlfm/cli/issues)
+
 ## TODO LIST
 
 * [x] 打包不生成 sourceMap 文件
